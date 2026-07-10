@@ -196,3 +196,27 @@ section {
     width: 300px;
   }
 }
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve paragraphs */
+p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* Make images animate slightly */
+.impact-image:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+/* Lift sections when hovering */
+section:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}
